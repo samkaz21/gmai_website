@@ -1,4 +1,25 @@
-.basic {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
 
+}
 
+h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+b {
+    font-weight: 200;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    font-weight: 150;
+    font-style: italic;
+    text-align: center;
 }
