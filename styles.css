@@ -7,6 +7,14 @@
 
 }
 
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
+
+}
+
 h1 {
     font-weight: 300;
     text-align: center;
