@@ -34,24 +34,53 @@
     /* justify-content: center; */
 
     font-family:'Times New Roman', Times, serif;
-    background-color: bisque;
-    padding: 16px
+    background-color: whitesmoke;
+    
 
 }
 
 .features {
     display: flex;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     justify-content: space-around;
+    margin: 16px
 
 }
 
 .features_item{
+    background-color: rgba(128, 0, 0, 0.103);
     width: 300px;
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #0d1306;
     justify-content: center;
+    padding: 20px;
+}
 
+.essence_tab {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px
+
+}
+
+.essence_info {
+    color: blue;
+    text-align: center;
+    
+    width: 400px;
+    font-size: large;
+}
+
+
+.essence_item{
+    background-color: rgba(128, 0, 0, 0.103);
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 2px solid #0d1306;
+    justify-content: center;
     padding: 20px;
 }
 
