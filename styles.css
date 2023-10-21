@@ -7,6 +7,7 @@
     background-color: maroon;
 }
 
+
 .logo_title {
     font-size: 35px;
     font-weight: bold;
@@ -27,6 +28,25 @@
     padding: 20px;
 }
 
+.banner_top {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    background-color: maroon;
+}
+
+.banner_image_wrapper {
+    flex: 1; /* Make the wrapper div flex to fill the horizontal space */
+    display: flex;
+    justify-content: center; /* Center the image horizontally within the wrapper */
+}
+
+.banner_image {
+    flex: 1; /* Make the image flex to fill the available space */
+    width: 100%; /* Set width to 100% to ensure it stretches */
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio */
+}
 
 .main_body {
     display: flex;
@@ -54,6 +74,7 @@
     border: 2px solid #0d1306;
     justify-content: center;
     padding: 20px;
+    margin: 10px
 }
 
 .essence_tab {
@@ -61,7 +82,7 @@
     background-color: whitesmoke;
     justify-content: space-around;
     align-items: center;
-    margin: 16px
+    margin: 16px;
 
 }
 
@@ -82,6 +103,7 @@
     border: 2px solid #0d1306;
     justify-content: center;
     padding: 20px;
+    margin: 10px;
 }
 
 .features_right{
@@ -109,4 +131,8 @@ footer {
     font-weight: 150;
     font-style: italic;
     text-align: center;
+}
+
+body {
+    padding: 0px, 0px;
 }
